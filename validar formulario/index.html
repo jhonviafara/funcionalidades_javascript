@@ -1,0 +1,74 @@
+<doctype html> 
+<html>
+    <head>
+      <meta name="">
+      <meta charset="utf-8">
+      <title> prueba</title>
+      <link rel="stylesheet" href="./css/formu.css">
+    </head>
+    <body>
+        <div class="formulario">
+        <form action="">
+            <h1>inscripcion</h1>
+            
+            <p>
+                <label for="nombre" name="nombre" id="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+            </p>
+            <p>
+                <label for="apellido" name="apellido">Apellido:</label>
+                <input type="text" id="apellido">
+            </p>
+            <p>
+                <label for="email" name="email">Email:</label>
+                <input type="text" id="email">
+            </p>
+            <p>
+                <label for="contraseña" name="contraseña" id="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" placeholder="numeros,letras">
+
+            </p>
+            <p>
+                <label for="confirmacion" name="confirmacio">Confirmar contraseña:</label>
+                <input type="password" id="confirmacion" name="confirmacion" placeholder="repetir contraseña">
+
+            </p>
+           
+           <p>
+            <labe name="genero" id="genero" >Genero:</labe>
+                <input type="radio" name="genero" id="f" value="f">
+                 <label for="f" id="genero">femenino</label>
+                
+                 <input type="radio" name="genero" id="m" value="m">
+                <label for="m" id="genero">masculino</label>
+               
+                <input type="radio" name="genero" id="x" value="x">
+               <label for="x" id="genero">otro</label>
+            </p>
+              <p>
+                <label for="fechaNacimiento" id="fechaNacimiento" name="fechaNacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="date">
+            </p> 
+            <p>
+                <label for="pais">Pais:</label>
+               <select  name="pais" id="pais">
+                <option value="" name="pais">selecionar</option>
+                <option value="1" name="pais">colombia</option>
+                <option value="2" name="pais">argentina</option>
+                <option value="3" name="pais">cuba</option>
+               </select>
+            </p>
+            <p>
+                <input type="checkbox" name="terminos" id="terminos" value=""> acepto terminos y condiciones
+            </p>
+         
+        <p>     
+                   <input type="submit" value="continuar" onclick= "return validar(this.form)">
+        
+        </p>
+
+        </form>
+    </div>
+        <script src="./javascripts/valid.js"></script>        
+    </body>
+</html>

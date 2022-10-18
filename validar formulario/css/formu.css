@@ -1,0 +1,22 @@
+body{
+    display: block;
+   align-content: center;
+   justify-content: center;
+    background-color: aqua;
+    
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario{
+    position: absolute;
+    left: 35%;
+    overflow: hidden;
+}
+p{
+    display: block;
+}
